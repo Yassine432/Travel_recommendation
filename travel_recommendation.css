@@ -1,0 +1,6 @@
+.img {
+    background-image: url('image background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }

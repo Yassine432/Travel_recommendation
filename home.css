@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .search-container input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-container button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #009688;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: url('images/image background.jpg') center/cover no-repeat;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    color: white;
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .book-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
